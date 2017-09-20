@@ -1,60 +1,47 @@
 <!DOCTYPE html>
 <html>
+<html lang="en-us">
 <head>
-	<title>Kyle Palmer Bio</title>
 
-<style>
-* {
-	border: 1px solid black;
-}
-.floating-box {
-	display: inline-block;
-}
-#menu li {
-	display: inline;
-	border-left: solid 1px grey;
-	padding: 0 10px;
-}
-#menu li:first-child {
-	border-left: none;
-}
-</style>
+	<meta charset="UTF-8">
+	<title>Kyle Palmer Bio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 	
-<div>
 
-	<div class="floating-box" style="font-family: 'Georgia';background-color: #4aaaa5;color: white; padding: 10px; width: 220px; margin: 20px 450px 1px 51px">
-		<h1>Kyle Palmer</h1>
-	</div>
+	<header class="clearfix" ">
 
-	<div class="floating-box" style="width: 270px">
-		<ul id="menu" style="list-style-type:none">
+		<section>
+
+			<h1 id ="name">Kyle Palmer</h1>
+
+		</section>
+
+		<ul class="menu" id="floatright">
 			<li>About</li>
 			<li>Portfolio</li>
 			<li>Contact</li>
 		</ul>
-	</div>
+
+	</header>
 	
-	<div>
-		<div class="floating-box" style="border: 1px solid grey; margin-left: 50px;margin-right: 40px;width: 650px">
-			<h2 style="border-bottom: 2px solid grey">About Me</h2>
-			<img src="http://lorempixel.com/400/200" alt="a stock image">
-			<p>Im a guy who is just doing guy stuff all the time</p>
-		</div>
-		
-		<div class="floating-box" style="vertical-align: top;float: top;width: 270px; margin-left: 0px; padding-bottom: 50px">
-			<h3>Connect with me</h3>
-			<ul id="menu" style="list-style-type:none">
-				<li>GitHub</li>
-				<li>LinkedIn</li>
-				<li>StackOverflow</li>
-			</ul>
-		</div>
-
-	</div>
-
-</div>
+	<section id="aboutMe">
+		<h2>About Me</h2>
+		<img src="assets/images/GetPersonaPhoto.jpg" style="float: left; width: 200px; height: 200px">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed cumque dicta accusantium. Quae commodi ea nam a voluptates quaerat distinctio incidunt minima rerum, sit deserunt iusto impedit ducimus pariatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ea iste dignissimos natus placeat ipsam in et nobis perspiciatis neque? Eligendi labore repellendus quas sunt laboriosam dignissimos excepturi rerum facilis. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quisquam ipsam culpa autem nemo error tempore corporis maxime cum repellendus, quas labore mollitia dignissimos in, qui minus debitis, molestias hic?</p>
+	</section>
+	
+	<section style="float: right">
+		<h3>Connect with me</h3>
+		<ul class="menu" id="connect">
+			<li><img src="assets/images/if_github_square_black_107109.png"></li>
+			<li><img src="assets/images/if_linkedin_square_color_107091.png"></li>
+			<li><img src="assets/images/if_stackoverflow_1220346.png"></li>
+		</ul>
+	</section>
 
 </body>
 </html>

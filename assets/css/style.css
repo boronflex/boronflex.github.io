@@ -1,0 +1,47 @@
+* {
+	border: 1px solid black;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.floating-box {
+	display: inline-block;
+}
+.menu li {
+	display: inline;
+	border-left: solid 1px grey;
+	padding: 0 10px;
+	text-align: center;
+	list-style-type: none;
+}
+.menu li:first-child {
+	border-left: none;
+}
+#name{
+	float: left;
+	margin-right: 50%;
+	margin-left: 5%;
+}
+#aboutMe{
+	position: static; 
+	float: left; 
+	width: 40%;
+	margin-left: 5%;
+}
+#connect{
+	list-style-type:none
+}
+#floatright{
+	float: right;
+}
+#floatleft{
+	float: left;
+}
