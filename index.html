@@ -5,43 +5,65 @@
 
 	<meta charset="UTF-8">
 	<title>Kyle Palmer Bio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 
 </head>
 <body>
 	
 
-	<header class="clearfix" ">
+	<header class="clearfix">
 
-		<section>
+		<div class="alignDivs">
 
-			<h1 id ="name">Kyle Palmer</h1>
+			<section  id ="name" class="floatleft">
 
-		</section>
+				<h1>Kyle Palmer</h1>
 
-		<ul class="menu" id="floatright">
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
-		</ul>
+			</section>
+
+			<section id="navMenu">
+
+				<ul class="menu">
+					<li>About</li>
+					<li>Portfolio</li>
+					<li>Contact</li>
+				</ul>
+
+			</section>
+
+		</div>
 
 	</header>
 	
-	<section id="aboutMe">
-		<h2>About Me</h2>
-		<img src="assets/images/GetPersonaPhoto.jpg" style="float: left; width: 200px; height: 200px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed cumque dicta accusantium. Quae commodi ea nam a voluptates quaerat distinctio incidunt minima rerum, sit deserunt iusto impedit ducimus pariatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ea iste dignissimos natus placeat ipsam in et nobis perspiciatis neque? Eligendi labore repellendus quas sunt laboriosam dignissimos excepturi rerum facilis. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quisquam ipsam culpa autem nemo error tempore corporis maxime cum repellendus, quas labore mollitia dignissimos in, qui minus debitis, molestias hic?</p>
-	</section>
+	<div class="alignDivs">
+
+		<section id="aboutMe">
+			<h2>About Me</h2>
+			<img src="assets/images/GetPersonaPhoto.jpg" id="personalImage">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed cumque dicta accusantium. Quae commodi ea nam a voluptates quaerat distinctio incidunt minima rerum, sit deserunt iusto impedit ducimus pariatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ea iste dignissimos natus placeat ipsam in et nobis perspiciatis neque? Eligendi labore repellendus quas sunt laboriosam dignissimos excepturi rerum facilis. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quisquam ipsam culpa autem nemo error tempore corporis maxime cum repellendus, quas labore mollitia dignissimos in, qui minus debitis, molestias hic?</p>
+		</section>
+		
+		<section id="connectSect">
+			<h3>Connect with me</h3>
+			<ul id="connect">
+				<li><img class="icon" src="assets/images/if_github_square_black_107109.png"></li>
+				<li><img class="icon" src="assets/images/if_linkedin_square_color_107091.png"></li>
+				<li><img class="icon" src="assets/images/if_stackoverflow_1220346.png"></li>
+			</ul>
+		</section>
+
+	</div>
+
+	<div class="clearfix">
+	</div>
 	
-	<section style="float: right">
-		<h3>Connect with me</h3>
-		<ul class="menu" id="connect">
-			<li><img src="assets/images/if_github_square_black_107109.png"></li>
-			<li><img src="assets/images/if_linkedin_square_color_107091.png"></li>
-			<li><img src="assets/images/if_stackoverflow_1220346.png"></li>
-		</ul>
-	</section>
+	<footer>
+		<p>this is a damn footer and i want it to stay put</p>
+	</footer>
 
 </body>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </html>

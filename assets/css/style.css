@@ -5,6 +5,33 @@ body{
 	margin: 0;
 	padding: 0;
 }
+header{
+	margin: 0;
+	padding: 0;
+	border: 0px 0px 2px solid grey;
+}
+li {
+	display: inline;
+	list-style-type:none;
+}
+h1, h2{
+	padding-left: 10px;
+}
+h3 {
+	text-align: center;
+}
+footer{
+	position: sticky;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	bottom: 0;
+}
+.alignDivs{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
@@ -25,23 +52,38 @@ body{
 .menu li:first-child {
 	border-left: none;
 }
-#name{
+.icon{
+	width: 50px;
+	height: 50px;
+}
+.floatright{
+	float: right;
+}
+.floatleft{
 	float: left;
-	margin-right: 50%;
-	margin-left: 5%;
+}
+#name{
+	width: 200px;
 }
 #aboutMe{
 	position: static; 
 	float: left; 
-	width: 40%;
-	margin-left: 5%;
+	width: 650px;
 }
 #connect{
-	list-style-type:none
+	padding-left: 55px;
 }
-#floatright{
+#navMenu{
+	width: 270px;
 	float: right;
 }
-#floatleft{
+#connectSect{
+	width: 270px;
+	float: right;
+}
+#personalImage{
+	padding: 10px;
 	float: left;
+	width: 150px;
+	height: 150px;
 }
