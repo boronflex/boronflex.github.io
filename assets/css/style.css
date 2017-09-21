@@ -15,7 +15,7 @@ li {
 	list-style-type:none;
 }
 h1, h2{
-	padding-left: 10px;
+	margin: 10px;
 }
 h3 {
 	text-align: center;
@@ -24,13 +24,19 @@ footer{
 	position: sticky;
 	margin: 0;
 	padding: 0;
-	height: 30px;
+	height: 40px;
 	bottom: 0;
+	background-color: #666666;
+}
+p {
+	margin: 0;
+	padding: 0;
 }
 .alignDivs{
 	width: 960px;
 	margin-left:auto;
 	margin-right:auto;
+
 }
 .clearfix:after { 
    content: "."; 
@@ -64,11 +70,14 @@ footer{
 }
 #name{
 	width: 200px;
+	background-color: #4aaaa5;
 }
 #aboutMe{
 	position: static; 
 	float: left; 
 	width: 650px;
+	border-color: #dddddd;
+	background-color: white;
 }
 #connect{
 	padding-left: 55px;
@@ -86,4 +95,14 @@ footer{
 	float: left;
 	width: 150px;
 	height: 150px;
+}
+#footerText {
+	text-align: center;
+	margin: 10px;
+}
+#tealSpacer {
+	background-color: #4aaaa5;
+}
+#topHeader {
+	border-bottom: 1px solid grey;
 }
