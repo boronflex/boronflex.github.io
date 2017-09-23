@@ -1,0 +1,245 @@
+/* {
+	border: 1px solid black;
+}*/
+body{
+	margin: 0;
+	padding: 0;
+	background: assets/images/seigaiha.png;
+}
+li {
+	display: inline;
+	list-style-type:none;
+	font-size: 1em;
+}
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+h2, h3 {
+	padding: 10px 15px 10px 15px;
+	font-weight: bold;
+}
+h2, h3 {
+	border-bottom: 2px solid #dddddd;
+}
+h1 {
+	color: white;
+	font-size: 1.75em;
+	font-weight: bold;
+	padding: 20px 10px;
+}
+h2 {
+	color: #4aaaa5;
+	font-size: 1.5em;
+	border-bottom-color: 1px solid #777777;
+}
+h3 {
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 1.25em;
+}
+p {
+	padding: 10px 30px 0px 30px;
+	color: #777777;
+	font-size: 16px;
+}
+p, li {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+label {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+}
+input, textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 590px;
+}
+form {
+	margin: 10px 30px;
+}
+a {
+	text-decoration: none;
+	color: #777777;
+	border: 0;
+}
+img:hover {
+    background-color: #777777;
+}
+a:hover {
+	background-color: #777777;
+}
+.portfolio{
+    width: 620px;
+    margin-left: 15px
+}
+.alignDivs{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.floating-box {
+	display: inline-block;
+}
+.menu li {
+	display: table; 
+	display: inline-block;
+	border-left: solid 1px grey;
+	padding: 0 5px;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 auto;
+	
+}
+.menu li:first-child {
+	border-left: none;
+}
+.icon{
+	width: 65px;
+	height: 65px;
+	padding: 2.5px;
+}
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+.table {
+	position: absolute;
+	left: 0;
+    top: 40%;
+    width: 100%;
+}
+.contactForm {
+}
+/* Porfolio Section */
+.portfolio-image {
+	position: absolute;
+	z-index: 2;
+	width:100%;
+	height:100%;
+}
+.portfolio-block {
+	position: relative;
+	z-index: 1;
+	width:290px;
+	height:260px;
+	margin: 20px 0px 20px 0px;
+
+}
+.project-label {
+	position: absolute;
+	z-index: 3;
+	padding: 20px 0px 20px 0px;
+	margin: auto 0;
+	width:100%;
+	height: 30px;
+	bottom: 10px;
+	color: white;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+}
+/* Porfolio Section */
+#name{
+	width: 240px;
+	background-color: #4aaaa5;
+}
+#aboutMe{
+	position: relative; 
+	float: left; 
+	width: 650px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	margin-top: 20px;
+}
+#connect{
+	width: 220px;
+	height: 70px;
+	margin: auto;
+	padding-left: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#navMenu{
+	position: relative;
+	width: 270px;
+	height: 68px;
+	display: table;
+	float: right;
+}
+#connectSect{
+	margin-top: 20px;
+	width: 270px;
+	float: right;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+#personalImage{
+	padding: 10px 10px 10px 30px;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#footerText {
+	position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    padding: 0;
+    color: white;
+    padding: 10px 0px 20px 0px;
+}
+#footer {
+	position: sticky;
+	z-index: 4;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	bottom: 0;
+	background-color: #666666;
+}
+#tealSpacer {
+	height: 10px;
+	background-color: #4aaaa5;
+}
+#header {
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #dddddd;
+}
+#bodyforimage{
+	background-image: url("../images/seigaiha.png")
+}
+#navList {
+	padding-left: 20px;
+}
+#submitButton {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 16px;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+#connectMe{
+	margin: auto;
+	width:200px;
+}
+#aboutText{
+	text-align: justify;
+}
