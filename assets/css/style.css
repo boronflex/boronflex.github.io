@@ -48,6 +48,30 @@ p, li {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
+label {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+}
+input, textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 590px;
+}
+form {
+	margin: 10px 30px;
+}
+a {
+	text-decoration: none;
+	color: #777777;
+	border: 0;
+}
+img:hover {
+    background-color: #777777;
+}
+a:hover {
+	background-color: #777777;
+}
 .portfolio{
     width: 620px;
     margin-left: 15px
@@ -84,6 +108,7 @@ p, li {
 .icon{
 	width: 65px;
 	height: 65px;
+	padding: 2.5px;
 }
 .floatright{
 	float: right;
@@ -96,6 +121,8 @@ p, li {
 	left: 0;
     top: 40%;
     width: 100%;
+}
+.contactForm {
 }
 /* Porfolio Section */
 .portfolio-image {
@@ -139,9 +166,12 @@ p, li {
 	margin-top: 20px;
 }
 #connect{
-	padding: 5px 5px 10px 15px;
-	margin-left: 15px;
-	margin-right: 15px;
+	width: 220px;
+	height: 70px;
+	margin: auto;
+	padding-left: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #navMenu{
 	position: relative;
@@ -197,4 +227,19 @@ p, li {
 }
 #navList {
 	padding-left: 20px;
+}
+#submitButton {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 16px;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+#connectMe{
+	margin: auto;
+	width:200px;
+}
+#aboutText{
+	text-align: justify;
 }

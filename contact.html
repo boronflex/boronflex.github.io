@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
 <html lang="en-us">
 <head>
 
 	<meta charset="UTF-8">
-	<title>Kyle Palmer Bio</title>
+	<title>Contact Kyle Palmer</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
@@ -25,14 +25,20 @@
 			 	<div class="table">
 
 				    <ul class="menu" id="navList">
-						<li>About</li>
-						<li>Portfolio</li>
-						<li>Contact</li>
+						<li>
+							<a href="index.html" target="_blank">About</a>
+						</li>
+						<li>
+							<a href="portfolio.html" target="_blank">Portfolio</a>
+						</li>
+						<li>
+							<a href="contact.html" target="_blank">Contact</a>
+						</li>
 					</ul>
 
 				</div>
 
-			<div>
+			</div>
 
 		</div>
 
@@ -45,20 +51,20 @@
 			<section id="aboutMe">
 				<h2>Contact</h2>
 				<div class="contactForm">
-					<form action="" method="get">
+					<form action="" method="get"><!--'action=" " shown as error in validation but this is from MDN -->
 					  <label for="GET-name">Name</label>
-					  <br></br>
-					  <input id="GET-name" type="text" name="name">
-					  <br></br>
-					  <label for="emailAddress">Name</label>
-					  <br></br>
-					  <input id="emailAddress" type="email">
-					  <br></br>
-					  <label for="textarea">Name</label>
-					  <br></br>
-					  <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
-					  <br></br>
-					  <input type="submit" value="Submit to me">
+					  <br>
+					  <input id="GET-name" type="text" name="name" placeholder="Your Name">
+					  <br>
+					  <label for="emailAddress">E-Mail</label>
+					  <br>
+					  <input id="emailAddress" type="email" placeholder="youremail@email.com">
+					  <br>
+					  <label for="msgbox">Message</label>
+					  <br>
+					  <textarea name="msgbox" rows="10" cols="50"></textarea>
+					  <br>
+					  <input type="submit" value="Submit" id="submitButton">
 					</form> 
 				</div>
 				
@@ -66,12 +72,32 @@
 			</section>
 			
 			<section id="connectSect">
-				<h3>Connect with Me</h3>
-				<ul id="connect">
-					<li><img class="icon" src="assets/images/if_github_square_black_107109.png"></li>
-					<li><img class="icon" src="assets/images/if_linkedin_square_color_107091.png"></li>
-					<li><img class="icon" src="assets/images/if_stackoverflow_1220346.png"></li>
-				</ul>
+
+				<h3 id="connectMe">Connect with Me</h3>
+
+				<div id="connect">
+
+					<div class="floatleft">
+						<a href="https://github.com/" target="_blank" class="iconlink">
+							<img class="icon" src="assets/images/if_github_square_black_107109.png" alt="github">
+						</a>
+					</div>
+
+					<div class="floatleft">
+
+						<a href="https://www.linkedin.com" target="_blank" class="iconlink">
+							<img class="icon" src="assets/images/if_linkedin_square_color_107091.png" alt="linkedin">
+						</a>
+					</div>
+
+					<div class="floatleft">
+
+						<a href="https://stackoverflow.com/" target="_blank" class="iconlink"><img class="icon" src="assets/images/if_stackoverflow_1220346.png" alt="stackoverflow">
+						</a>
+
+					</div>
+
+				</div>
 			</section>
 
 		</div>
@@ -87,6 +113,6 @@
 
 </body>
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 </html>
